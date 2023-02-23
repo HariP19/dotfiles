@@ -6,38 +6,9 @@
 "  \_/ |_|_| |_| |_|_|  \___|
 "
 
-"============================================================
-" Vundle Plugins
-"
-" To install from Vundle
-" git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-"
-" To install Vundle plugins
-" Launch vim and run :PluginInstall
-"
-" set the runtime path to include Vundle and initialize
-"	set nocompatible              " be iMproved, required
-"	filetype off                  " required
-"
-"	set rtp+=~/.vim/bundle/Vundle.vim
-"	call vundle#begin()
-
-" let Vundle manage Vundle, required
-"	Plugin 'VundleVim/Vundle.vim'
-
-" vim-code-dark
-"	Plugin 'tomasiser/vim-code-dark'
-
-" NerdTree
-"	Plugin 'preservim/nerdtree'
-	
-" NerdCommenter
-"	Plugin 'scrooloose/nerdcommenter'
-
-"	call vundle#end()
-"	filetype plugin indent on
 "=============================================================
-
+" Configuration Settings
+"
 " Set syntax detection to on
 	syntax on
 
@@ -54,11 +25,17 @@
 " Enable line numbers
 	set number
 
+" Enable relative numbers
+	set relativenumber
+
 " Enable mouse on all modes
 	set mouse=a
 
 " Set colorscheme to vim-code-dark
 "	colorscheme codedark
+
+" Allow copying to clipboard
+	set clipboard^=unnamed,unnamedplus
 
 " Start NERDTree and put the cursor back in the other window.
 	autocmd VimEnter * NERDTree | wincmd p
