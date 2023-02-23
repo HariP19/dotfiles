@@ -32,5 +32,3 @@ alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 # Get IP
 alias ipaddress="echo $(ifconfig | grep broadcast | awk '{print $2}')"
 
-# alias lcs="ls -lh --color | cowsay -n"
-# alias lacs="ls -lah --color | cowsay -n"
