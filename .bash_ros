@@ -1,0 +1,5 @@
+# Source ROS dist
+source /opt/ros/noetic/setup.bash
+
+# Source workspace
+alias ss='source ./devel/setup.bash'
