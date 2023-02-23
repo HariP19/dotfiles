@@ -16,26 +16,26 @@
 " Launch vim and run :PluginInstall
 "
 " set the runtime path to include Vundle and initialize
-	set nocompatible              " be iMproved, required
-	filetype off                  " required
-
-	set rtp+=~/.vim/bundle/Vundle.vim
-	call vundle#begin()
+"	set nocompatible              " be iMproved, required
+"	filetype off                  " required
+"
+"	set rtp+=~/.vim/bundle/Vundle.vim
+"	call vundle#begin()
 
 " let Vundle manage Vundle, required
-	Plugin 'VundleVim/Vundle.vim'
+"	Plugin 'VundleVim/Vundle.vim'
 
 " vim-code-dark
-	Plugin 'tomasiser/vim-code-dark'
+"	Plugin 'tomasiser/vim-code-dark'
 
 " NerdTree
-	Plugin 'preservim/nerdtree'
+"	Plugin 'preservim/nerdtree'
 	
 " NerdCommenter
-	Plugin 'scrooloose/nerdcommenter'
+"	Plugin 'scrooloose/nerdcommenter'
 
-	call vundle#end()
-	filetype plugin indent on
+"	call vundle#end()
+"	filetype plugin indent on
 "=============================================================
 
 " Set syntax detection to on
@@ -58,7 +58,7 @@
 	set mouse=a
 
 " Set colorscheme to vim-code-dark
-	colorscheme codedark
+"	colorscheme codedark
 
 " Start NERDTree and put the cursor back in the other window.
 	autocmd VimEnter * NERDTree | wincmd p
