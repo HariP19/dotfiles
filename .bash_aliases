@@ -22,6 +22,7 @@ alias Documents="cd /home/hari/Documents/"
 # Git commands
 alias gstatus="git status"
 alias glog="git log"
+alias gadd="git add"
 alias gcommit="git commit -m"
 alias gclone="git clone"
 alias gcheckout="git checkout"
@@ -31,4 +32,14 @@ alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Crese
 
 # Get IP
 alias ipaddress="echo $(ifconfig | grep broadcast | awk '{print $2}')"
+
+# Sourcing 
+alias ss='source ./devel/setup.bash' # source ROS workspace
+alias sbash='source ~/.bashrc'
+
+# Link ls with lsd
+# Dependency - https://github.com/lsd-rs/lsd
+function ls {
+	command lsd "$@"
+}
 

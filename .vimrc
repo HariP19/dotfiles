@@ -31,8 +31,11 @@
 " Enable mouse on all modes
 	set mouse=a
 
-" Set colorscheme to vim-code-dark
-"	colorscheme codedark
+" Set background colorschemej
+"set background=dark
+set t_Co=256
+set t_ut=
+colorscheme codedark
 
 " Allow copying to clipboard
 	set clipboard^=unnamed,unnamedplus
@@ -50,3 +53,14 @@
 " Remappings
 
 	inoremap jj <ESC> " leave insert mode with jj
+
+
+"===============================================================
+"Plugins
+"
+"call plug#being()
+
+"Plug 'AhmedAbdulrahman/vim-aylin'
+"
+"call plug#end()
+
