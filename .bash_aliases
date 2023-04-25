@@ -39,7 +39,8 @@ alias sbash='source ~/.bashrc'
 
 # Link ls with lsd
 # Dependency - https://github.com/lsd-rs/lsd
-function ls {
-	command lsd "$@"
-}
-
+if command -v lsd >/dev/null 2>&1; then # Check if lsd is installed
+	function ls {
+		command lsd "$@"
+	}
+fi
