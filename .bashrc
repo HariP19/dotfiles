@@ -121,3 +121,11 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# Run starship
+eval "$(starship init bash)"
+
+# Run starship
+eval "$(zoxide init bash)"
+
+
