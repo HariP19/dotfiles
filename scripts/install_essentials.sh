@@ -17,3 +17,6 @@ curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/ajeetdsou
 
 # Change back to the previous directory
 cd ..
+
+# Source bashrc
+source ~/.bashrc
