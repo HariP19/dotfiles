@@ -15,6 +15,6 @@ truncation_symbol = ".../"
 truncate_to_repo=false
 
 [container]
-format = '[🐋\[Docker\]](bold blue dimmed) '
+format = '[🐋 \[PERCEPTION_LOCOMOTION\]](bold blue dimmed) '
 # format = '[🐋 $info](green)'
 disabled = false
