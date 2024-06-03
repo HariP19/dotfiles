@@ -125,7 +125,6 @@ fi
 # Run starship
 eval "$(starship init bash)"
 
-# Run starship
+# Run zoxide
 eval "$(zoxide init bash)"
-
 
