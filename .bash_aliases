@@ -72,3 +72,12 @@ if command -v lsd >/dev/null 2>&1; then # Check if lsd is installed
 		command lsd "$@"
 	}
 fi
+
+# Remap cd with zoxide
+# Dependency 
+# function cd {
+# 	comman z "$@"
+# }
+
+alias z='cd'
+
