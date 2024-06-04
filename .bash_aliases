@@ -79,5 +79,5 @@ fi
 # 	comman z "$@"
 # }
 
-alias z='cd'
+# alias z='cd'
 
