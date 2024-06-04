@@ -22,6 +22,11 @@ ln -sfn "${HOME}/dotfiles/.tmux.conf" ~/.tmux.conf
 ln -sfn "${HOME}/dotfiles/.vimrc" ~/.vimrc
 ln -sfn "${HOME}/dotfiles/.bashrc" ~/.bashrc
 ln -sfn "${HOME}/dotfiles/.bash_aliases" ~/.bash_aliases
+ln -sfn "${HOME}/dotfiles/.bash_ros" ~/.bash_ros
+
+# Setup starship
+mkdir -p ~/.config
+ln -sfn "${HOME}/dotfiles/starship.toml" ~/.config/starship.toml
 
 # Reload .bashrc
 source ~/.bashrc
