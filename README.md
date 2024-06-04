@@ -37,12 +37,16 @@ To set up your environment using these dotfiles, follow the steps below:
 1. Clone the repository to your local machine:
 
    ```bash
+   #cd into home directory
+   cd
+   
+   # clone  
    git clone https://github.com/HariP19/dotfiles.git
-   cd dotfiles
    ```
 
 2. Run the install and setup scripts:
     ```bash
+    cd dotfiles
     ./scripts/install_essentials.sh
     ./scripts/setup.sh
     ```
