@@ -1,6 +1,12 @@
 # Dotfiles
 
-Welcome to my dotfiles repository! This repository contains all the configuration files and setup scripts I use to configure my development environment. Feel free to use and adapt them to your needs.
+Welcome to my dotfiles repository! This repository contains all the configuration files and setup scripts I use to configure my development environment. Feel free to use and adapt them to your needs. 
+
+Please review config files and scripts before installing them, as these are configured for my usage.
+
+These configurations are tested in Ubuntu 20.04 & 22.04
+
+![Showcase Image](img/showcase.png)
 
 ## Contents
 
@@ -21,7 +27,7 @@ Welcome to my dotfiles repository! This repository contains all the configuratio
 - `.bashrc`: Main Bash configuration file.
 - `.tmux.conf`: Tmux configuration file.
 - `.vimrc`: Vim configuration file.
-- `alacritty.yml`: Configuration file for the Alacritty terminal emulator.
+- `alacritty.toml`: Configuration file for the Alacritty terminal emulator.
 - `starship.toml`: Configuration file for the Starship prompt.
 
 ## Installation
@@ -40,6 +46,8 @@ To set up your environment using these dotfiles, follow the steps below:
     ./scripts/install_essentials.sh
     ./scripts/setup.sh
     ```
+3. Refer [docs/alacritty.md](docs/alacritty.md) to install and configure [alacritty](https://alacritty.org/) (recommended if you're using starship)
+
 ## Usage
 
 ### Bash Configuration
