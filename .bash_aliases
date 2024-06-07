@@ -68,9 +68,11 @@ alias screen-saver='while [ TRUE ]; do head -n 100 /dev/urandom; sleep .1; done 
 # Remap ls with lsd
 # Dependency - https://github.com/lsd-rs/lsd
 if command -v lsd >/dev/null 2>&1; then # Check if lsd is installed
-	function ls {
-		command lsd "$@"
-	}
+	if [ "$TERM_PROGRAM" != "vscode" ]; then
+		function ls {
+			command lsd "$@"
+		}
+	fi
 fi
 
 # Remap cd with zoxide

@@ -123,8 +123,11 @@ if ! shopt -oq posix; then
 fi
 
 # Run starship
-eval "$(starship init bash)"
+# eval "$(starship init bash)"
+if [ "$TERM_PROGRAM" != "vscode" ]; then
+    eval "$(starship init bash)"
+fi
 
 # Run zoxide
-eval "$(zoxide init bash)"
+# eval "$(zoxide init bash)"
 
