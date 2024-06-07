@@ -13,7 +13,8 @@ rm lsd_0.23.1_amd64.deb
 curl -sS https://starship.rs/install.sh | sh
 
 # Install Zoxide
-# curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/ajeetdsouza/zoxide/master/install.sh | sh
+curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
+export PATH=$PATH:$HOME/.local/bin
 
 # Change back to the previous directory
 cd ..
