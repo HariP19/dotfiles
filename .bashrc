@@ -124,9 +124,9 @@ fi
 
 # Run starship
 # eval "$(starship init bash)"
-if [ "$TERM_PROGRAM" != "vscode" ]; then
-    eval "$(starship init bash)"
-fi
+# if [ "$TERM_PROGRAM" != "vscode" ]; then
+#     eval "$(starship init bash)"
+# fi
 
 # Run zoxide
 # eval "$(zoxide init bash)"
