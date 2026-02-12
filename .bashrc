@@ -122,12 +122,12 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Run starship
-# eval "$(starship init bash)"
-# if [ "$TERM_PROGRAM" != "vscode" ]; then
-#     eval "$(starship init bash)"
-# fi
-
 # Run zoxide
-# eval "$(zoxide init bash)"
+if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+fi
+eval "$(zoxide init bash --cmd cd)"
 
+if [ -f ~/.local/share/blesh/ble.sh ]; then
+    source ~/.local/share/blesh/ble.sh
+fi

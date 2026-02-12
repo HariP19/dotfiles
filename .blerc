@@ -1,0 +1,10 @@
+# ble.sh configuration
+
+# Disable syntax highlighting
+bleopt highlight_syntax=
+
+# Keep autosuggestions enabled (comment out to disable)
+bleopt complete_auto_complete=1
+
+# Autosuggestion color (grayed out)
+ble-face auto_complete='fg=gray'

@@ -10,12 +10,18 @@ sudo dpkg -i lsd_0.23.1_amd64.deb
 rm lsd_0.23.1_amd64.deb
 
 # Install Starship
-curl -sS https://starship.rs/install.sh | sh
+# curl -sS https://starship.rs/install.sh | sh
 
-# Install Zoxide
+# # Install Zoxide
 curl -sSfL https://raw.githubusercontent.com/ajeetdsouza/zoxide/main/install.sh | sh
 export PATH=$PATH:$HOME/.local/bin
 
+# Install ble.sh
+curl -L https://github.com/akinomyoga/ble.sh/releases/download/nightly/ble-nightly.tar.xz | tar xJf -
+mkdir -p ~/.local/share/blesh
+cp -Rf ble-nightly/* ~/.local/share/blesh/
+rm -rf ble-nightly
+ 
 # Change back to the previous directory
 cd ..
 
