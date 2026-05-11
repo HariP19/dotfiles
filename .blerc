@@ -8,3 +8,6 @@ bleopt complete_auto_complete=1
 
 # Autosuggestion color (grayed out)
 ble-face auto_complete='fg=gray'
+
+# Keybinding Fix for vim-tmux-navigator conflict
+ble-bind -m emacs -f RET accept-line
