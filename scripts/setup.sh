@@ -23,6 +23,8 @@ ln -sfn "${HOME}/dotfiles/.vimrc" ~/.vimrc
 #ln -sfn "${HOME}/dotfiles/.bashrc" ~/.bashrc
 ln -sfn "${HOME}/dotfiles/.bash_aliases" ~/.bash_aliases
 ln -sfn "${HOME}/dotfiles/.blerc" ~/.blerc
+mkdir -p ~/.config/kitty
+ln -sfn "${HOME}/dotfiles/kitty.conf" ~/.config/kitty/kitty.conf
 
 # Setup starship
 # mkdir -p ~/.config

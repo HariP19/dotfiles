@@ -64,3 +64,4 @@
 "
 "call plug#end()
 
+set clipboard=unnamedplus

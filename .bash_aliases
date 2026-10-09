@@ -21,14 +21,14 @@ mkcd() { mkdir -p "$@" && cd "$@"; }
 alias udpate='sudo apt update && sudo apt upgrade'
 
 # Quick access to git commands
-alias gs='git status'
-alias ga='git add'
-alias gc='git commit -m'
-alias gp='git push'
-alias gco='git checkout'
-alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
-alias gb='git branch'
-alias gpl='git pull'
+#alias gs='git status'
+#alias ga='git add'
+#alias gc='git commit -m'
+#alias gp='git push'
+#alias gco='git checkout'
+#alias gitlg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
+#alias gb='git branch'
+#alias gpl='git pull'
 
 # Sourcing 
 alias ss='source ./devel/setup.bash'
